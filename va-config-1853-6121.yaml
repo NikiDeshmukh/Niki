@@ -1,0 +1,12 @@
+# Enter the API details required to connect to IDN Partner123
+# Note: A space is needed between each key: value
+pod: stg01-eucentral1
+org: partner123
+apiUser: 57ac0681-4e43-4afe-972f-eb80e7fa27a7
+apiKey: f5254b8891529c47701addf90e081d7554635885fae132030c3c0c4e4f55e5f4
+
+# keyPassphrase is used to protect private keys in transit. It is not sent
+# to IDN Partner123. It must be the same for every Virtual Appliance in this cluster.
+#
+# NOTE: The keyPassphrase will be encrypted automatically by the virtual appliance.
+keyPassphrase: Sailpoint@22
